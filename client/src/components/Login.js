@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class Login extends Component {
+class Login extends Component {
   state = {
     answer: 0,
   }
@@ -12,10 +12,11 @@ export class Login extends Component {
   }
 
   render() {
+    const { answer } = this.state
     return (
       <div>
         <h1>Welcome to React!</h1>
-        <p>API Says: {this.state.answer}</p>
+        <p>API Says: {answer}</p>
       </div>
     )
   }
