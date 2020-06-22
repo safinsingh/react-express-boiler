@@ -4,7 +4,7 @@ import { Container } from 'reactstrap'
 import Login from './components/Login'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.css'
+import './App.scss'
 
 class App extends Component {
   render() {

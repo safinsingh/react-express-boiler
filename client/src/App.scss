@@ -1,0 +1,12 @@
+$bgColor: #0f172b;
+$fgColor: #fff;
+
+html,
+body {
+  background-color: $bgColor;
+}
+
+h1,
+p {
+  color: $fgColor;
+}
